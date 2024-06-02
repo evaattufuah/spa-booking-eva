@@ -1,8 +1,8 @@
 "use client";
-
+import dynamic from 'next/dynamic';
 import React from 'react';
 import { ContactForm } from '@/components/ContactForm';
-import Map from '@/components/Map';
+const Map = dynamic(() => import('@/components/Map'), { ssr: false });
 import { FaFacebook, FaTwitter, FaInstagramSquare } from "react-icons/fa";
 
 const Contact = () => {
