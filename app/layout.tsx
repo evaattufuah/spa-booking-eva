@@ -1,8 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto, Playfair_Display } from "@next/font/google";
-import Navbar from '@/components/ui/navBar';
+
 import Footer from './components/Footer';
+import Navbar from '@/components/ui/Navbar';
 
 
 const roboto_init = Roboto({
