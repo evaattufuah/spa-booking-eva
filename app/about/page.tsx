@@ -4,7 +4,7 @@ import { ContactForm } from '@/components/ContactForm';
 import Autoplay from 'embla-carousel-autoplay';
 import Map from '@/components/Map';
 import Carosuel_about from '@/components/Slider/Carosuel_about';
-const aboutPage = () => {
+const AboutPage = () => {
   const plugin = React.useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true })
   )
@@ -15,8 +15,8 @@ const aboutPage = () => {
       <img src="/images/wallpaper.jpg" width={500} height={500} className='col-span-1 min-w-full rounded-full' alt="Hand massage" />
       <div className='text-white col-span-1'>
         <h1 className='text-3xl tracking-wide font-playfair w-2/3 text-center font-bold text-lime-400 italic'>About Us</h1>
-        <p className="text-pretty tracking-wide mt-4 w-5/6 text-xl">  Indulge in a wide range of luxurious spa and beauty treatments designed to pamper you from head to toe,We believe that true beauty begins with inner peace and radiates outward. That's why we've created a space where you can escape the chaos of everyday life and reconnect with yourself on a deeper level. From the moment you step through our doors, you'll be greeted by our friendly staff and enveloped in an atmosphere of tranquility and serenity.
-          Our spa is designed to be a haven of peace, with calming decor, soothing aromas, and a serene atmosphere that immediately sets you at ease. Whether you're here for a quick beauty treatment or a full day of pampering, you'll find our spa to be a perfect retreat from the hustle and bustle of everyday life.<br></br>
+          <p className="text-pretty tracking-wide mt-4 w-5/6 text-xl">  Indulge in a wide range of luxurious spa and beauty treatments designed to pamper you from head to toe,We believe that true beauty begins with inner peace and radiates outward. That is why we&apos;ve created a space where you can escape the chaos of everyday life and reconnect with yourself on a deeper level. From the moment you step through our doors, you will be greeted by our friendly staff and enveloped in an atmosphere of tranquility and serenity.
+          Our spa is designed to be a haven of peace, with calming decor, soothing aromas, and a serene atmosphere that immediately sets you at ease. Whether you are here for a quick beauty treatment or a full day of pampering, you willl find our spa to be a perfect retreat from the hustle and bustle of everyday life.<br></br>
 
         
 
@@ -55,4 +55,4 @@ const aboutPage = () => {
   )
 }
 
-export default aboutPage
+export default AboutPage
