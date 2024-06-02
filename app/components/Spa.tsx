@@ -13,10 +13,10 @@ import Link from 'next/link';
 import { ContactForm } from '@/components/ContactForm';
 import Map from '@/components/Map';
 
-type FormErrors = Partial<FormValues & { appointmentDate: string }>;
+// type FormErrors = Partial<FormValues & { appointmentDate: string }>;
 
 const Spa: React.FC = () => {
-    const [appointmentDate, setAppointmentDate] = useState<Date | null>(null);
+    // const [appointmentDate, setAppointmentDate] = useState<Date | null>(null);
 
     return (
         <div>
