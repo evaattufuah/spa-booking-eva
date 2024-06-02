@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Spa from './components/Spa';
-import DatePicker from './components/DatePicker';
+
 export default function Home() {
   return (
     
