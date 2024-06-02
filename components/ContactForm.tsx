@@ -59,7 +59,7 @@ export function ContactForm() {
         },
     });
 
-    function handleDateChange(event) {
+    function handleDateChange(event:any) {
         const date = event.target.value;
         setAppointmentDate(date);
         const parsedDate = new Date(date);
